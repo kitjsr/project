@@ -1,0 +1,337 @@
+<html>
+	<head>
+		<title>Coperate Events</title>
+		<style type="text/css">
+			#main{
+				width:1300px;
+				height:100%;
+				background:#FFF;
+				margin:0 auto;
+			}
+			#title{
+				width:1300px;
+				height:80px;
+				background-image:linear-gradient(to right,#e96176,#feaa95,#fff);
+			}
+			#logo{
+				width:100px;
+				height:80px;
+				float:left;
+				}
+			#logo img{
+				width:80px;
+				height:80px;
+				border-radius:50px;
+				margin:20px 10px;
+			}
+			#title2{
+				width:800px;
+				height:80px;
+				float:left;
+			}
+			#title2 p{
+				margin:40px 10px;
+				color:#FFF;
+				font-family:Brush Script MT;
+				font-weight:normal;
+				font-size:36;
+				text-decoration:underline;	
+				text-shadow:0px 1px 5px #ff69b4;
+			}
+			#logo1{
+				width:200px;
+				height:80px;
+				float:right;
+			}
+			#logo1 ul li{
+				list-style-type:none;
+				float:left;
+				margin-right:5px;
+				margin-top:10px;
+				padding:0;
+			}
+			#logo1 ul li img{
+				width:30px;
+				height:30px;
+				border-radius:10px;
+			}
+			#menu{
+				width:1300px;
+				height:40px;
+				background-image:linear-gradient(to right,#e96176,#feaa95);
+			}
+			#menu ul{
+				margin:0;
+				margin-left:450px;
+				padding:0;
+				list-style-type:none;
+			}
+			#menu ul li{
+				 float:left;
+				font-size:20;
+				text-shadow:0px 1px 5px #ff69b4; 
+			}
+			#menu ul li a:link, #menu ul li a:visited{
+				color:#fff;
+				text-decoration:none;
+				display:block;
+				padding: 10px 20px;
+			}
+			#menu ul li a:hover{
+				color:#e96176;
+				background:white;
+				text-shadow:0px 1px 5px #fff;
+			}
+			#image{
+				width:1300px;
+				height:400px;
+				background:url('corporatebg.jpg');
+				background-size:cover;
+			}
+			#about{
+				width:1100px;
+				height:900px;
+				background:#ebf6fe;
+				padding:100px; 
+			}
+			#about h1{
+				color:#0000cd;
+				margin:0px 0 40px 0;
+				font-size:28;
+			}
+			#about p{
+				width:700px;
+				text-align:justify;
+				font-size:16;
+				color:#002147;
+			}
+			#about ul li{
+				list-style-image:url('http://mpsckp.com/images/arr.png');
+				font-size:18;
+			}
+			@keyframes slideshow{
+				0%{
+						background:url('corporate1.jpg');
+						background-size:cover;
+					}
+				10%{
+						background:url('corporate2.jpg');
+						background-size:cover;
+					}
+				20%{
+						background:url('corporate5.jpeg');
+						background-size:cover;
+					}
+				30%{
+						background:url('corporate3.jpeg');
+						background-size:cover;
+					}
+				40%{
+						background:url('corporate4.jpeg');
+						background-size:cover;
+					}
+
+				50%{
+						background:url('corporate5.jpeg');
+						background-size:cover;
+					}
+
+				60%{
+						background:url('corporate6.jpeg');
+						background-size:cover;
+					}
+
+				70%{
+						background:url('corporate7.jpeg');
+						background-size:cover;
+					}
+
+				80%{
+						background:url('corporate8.jpeg');
+						background-size:cover;
+					}
+
+				90%{
+						background:url('corporate9.jpeg');
+						background-size:cover;
+					}
+
+				100%{
+						background:url('corporate10.jpeg');
+						background-size:cover;
+					}
+			}
+			#about2 {
+				width:350px;
+				height:300px;
+				float:right;
+				margin:200px 0;
+				box-shadow:5px 5px 5px #000;
+				animation-name:slideshow;
+				animation-duration:40s;
+				animation-iteration-count:infinite;
+			}
+			#footer{
+				width:1200px;
+				height:350px;
+				background:#250a15;
+				padding:50px;
+				float:left;
+			}
+			#foot1{
+				width:350px;
+				height:300px;
+				margin-right:20px;
+				float:left;
+			}
+			#foot1 h2{
+				font-size:30;
+				color:#fff;
+				margin-left:20px;
+			}
+			#foot1 p{
+				font-size:20;
+				text-align:justify;
+				float:right;
+				margin:10px;
+				color:#fff;
+			}
+			#foot2{
+				width:180px;
+				height:300px;
+				background:transparent;
+				margin-right:20px;
+				float:left;
+			}
+			#foot2 h2{
+				font-size:30;
+				color:#fff;
+				margin-left:30px;
+			}
+			#foot2 ul li{
+				list-style-type:none;
+				margin-bottom:10px;
+				font-size:20;
+				color:#fff;
+			}
+			#foot2 ul li:hover{
+				transform:translateX(10px);
+			}
+			#foot3{
+				width:250px;
+				height:300px;
+				background:transparent;
+				margin-right:20px;
+				float:left;
+			}
+			#foot3 h2{
+				font-size:30;
+				color:#fff;
+			}
+			#foot3 p{
+				text-align:justify;
+				float:right;
+				margin:10px;
+				color:#fff;
+			}
+			#foot3 p a:link,#foot3 p a:visited{
+				color:#fff;
+				text-decoration:none;
+			}
+			#foot4{
+				width:350px;
+				height:300px;
+				background:transparent;
+				float:left;
+			}
+			#foot4 h2{
+				font-size:30;
+				color:#fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<div id="title">
+				<div id="logo">
+					<img src="logo3.jpg"/>
+				</div>
+				<div id="title2">
+					<p>Making your Events beautiful</p>
+				</div>
+				<div id="logo1">
+					<ul>
+						<li><a href="http://www.facebook.com"><img src="facebook.jpeg"/></a></li>
+						<li><a href="http://www.instagram.com"><img src="insta.jpeg"/></a></li>
+						<li><a href="http://www.twitter.com"><img src="twitter.jpeg"/></a></li>
+						<li><a href="http://www.youtube.com"><img src="youtube.jpeg"/></a></li>
+					</ul>
+				</div>
+			</div>
+			<div id=menu>
+			<ul>
+				<li> <a href="index.html">Home</a></li>
+				<li> <a href="about.html">About us</a></li>
+				<li> <a href="corporate.html">Corporate events</a></li>
+				<li> <a href="destination.html">wedding destination</a>	</li>
+				<li> <a href="memories.html">Memories</a></li>
+				<li> <a href="contact.html">Reach us</a></li>
+			</ul>
+			</div>
+			<div id="image">
+			</div>
+			<div id="about">
+					<div id="about2">
+					</div>
+				<h1>CORPORATE EVENTS</h1>
+				<h2>Corporate Event Management program arrangement with high-level expertise</h2>
+				<p>Are you looking for the best corporate events management house to host your conferences, meetings and award shows? Your search ends here with us. We are not only the most experienced corporate events managers, but we are a complete management house to support you host the program with all the ingredients and arrangements you need.</p>
+				<p>Our experience and infrastructural support would help you in the entire arrangement, where we would be maintaining all the fabrications of your homage and hostage. Right from the arrangement of the meeting room, sitting arrangement to arrangement of red carpet show, we are having the sensation and expertise in all possible ways.</p>
+				<p>Arranging the sound system to the arrangement of escorting your guests with royal hospitality, we are there to give you the highest level of support in arrangement of your event. We are also comfortable in arranging the snacks or the grand or gala dinner party for your guests and the board meeting members.</p>
+				<p>Arrangement of giant screens for large shows and even the arrangement of interpreter for foreign meets, we are every time beside you with all our equipment. Hence, reach us and just narrate the idea you want to establish. Modification and modernization of that idea until the execution of the same is our edge. And the most important thing is that when we will be arranging it for you, there will be no space for you to listen anything else than praise of the event.</p>
+			<p>Hence, reach us now and experience the world-class event management euphoria before you.</p>
+			<p>Your organization occasion is an augmentation of your image and we set aside the effort to comprehend your image and picture, regardless of whether your organization is praising another item, an organization achievement or an in-store show. We comprehend that your occasion must be planned in view of your organization esteems and be a genuine impression of your organization style while likewise observing a quantifiable profit for your speculation.</p>
+			<h2>Our corporate services include:</h2>
+			<ul>
+					<li>Consultation</li>
+					<li> Sourcing appropriate vendors while staying within budget</li>
+ 					<li>Team building events</li>
+ 					<li>Concept and theme design</li>
+ 					<li>Venue sourcing</li>
+ 					<li>Vendor booking and management</li>
+ 					<li>Staff recruitment and management</li>
+ 					<li>Contract negotiation and management</li>
+ 					<li>Timeline development</li>
+ 					<li>Event design, installation and production management</li>
+			</ul>		
+				
+			</div>
+			<div id="footer">
+				<div id="foot1">
+					<h2>V3 EVENTS & WEDDINGS</h2>
+					<p>KS Events and Entertainments Pvt Ltd is passionate about crafting charmingly timeless and elegant luxurious weddings and events at stunning venues throughout the world. As the leading wedding designers and event organisers in Delhi and Gurgaon, we are renowned to create authentic experiences worth cherishing for a lifetime.</p>
+				</div>
+				<div id="foot2">
+					<h2>LINKS</h2>
+					<ul>
+						<li>Home</li>
+						<li>About us</li>
+						<li>Gallery</li>
+						<li>Career with us</li>
+						<li>Reach us</li>
+						<li>Gurgaon</li>
+					</ul>
+				</div>
+				<div id="foot3">
+					<h2>CONTACT US</h2>
+					<p>DLF PHASE - 2 L-25/9<br>
+Near by Privat Hospital Gurugram, Haryana 122002  <br><br><br> Email: <a href="mailto:kalisrivastav17@gmail.com? subject=Query">kalisrivastav17@gmail.com</a></p>
+				</div>
+				<div id="foot4">
+					<h2>MAP LOCATION</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.1244988882086!2d86.19608747434283!3d22.76076052604957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5fccbc8979213%3A0x8da2632aa048f86f!2sShiv%20Shankar%20Apartment!5e0!3m2!1sen!2sin!4v1701271482633!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
